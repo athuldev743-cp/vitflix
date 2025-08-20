@@ -1,0 +1,49 @@
+
+/* Global settings */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;   /* full black background */
+  color: #e50914;           /* default text red */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+/* Make all headings, paragraphs, and list items red */
+h1, h2, h3, h4, h5, h6,
+p, li, span, a {
+  color: #e50914;
+}
+
+/* Banner description remains readable */
+.banner-description {
+  color: #fff;                  /* keep white for contrast on image */
+}
+
+/* Navbar / sidebar menu text */
+.menu li {
+  color: #e50914;               /* red menu items */
+}
+
+.menu li:hover {
+  color: #fff;                  /* optional: highlight on hover */
+}
+
+/* Banner buttons */
+.banner-btn {
+  background-color: rgba(51, 51, 51, 0.5);
+  color: #e50914;               /* red text on buttons */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.banner-btn:hover {
+  color: #fff;                  /* white text on hover */
+  background-color: #e50914;    /* red background on hover */
+}
+
